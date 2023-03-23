@@ -39,7 +39,7 @@ spec:
             name: oac-configmap
 
       containers:
-        - image: oac-server
+        - image: ssricardo/openapi-center-server
           imagePullPolicy: IfNotPresent
           name: openapi-center-backend
 
