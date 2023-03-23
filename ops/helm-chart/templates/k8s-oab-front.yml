@@ -33,7 +33,7 @@ spec:
         app: oac-front-app
     spec:
       containers:
-      - image: openapi-center-front
+      - image: ssricardo/openapi-center-front
         imagePullPolicy: Never
         name: openapi-center-front
 
