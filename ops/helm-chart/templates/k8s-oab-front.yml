@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - image: ssricardo/openapi-center-front
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         name: openapi-center-front
 
         ports: 
